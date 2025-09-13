@@ -8,7 +8,7 @@
   "types": "index.ts",
   "browser": "dist/umd/index.js",
   "dependencies": {
-    "ts-xutils": "https://github.com/langgexyz/ts-xutils#semver:^0.4.0"
+    "ts-xutils": "https://github.com/langgexyz/ts-xutils#semver:^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "28.1.3",
