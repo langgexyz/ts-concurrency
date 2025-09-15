@@ -1,6 +1,6 @@
 {
   "name": "ts-concurrency",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "typescript concurrency",
   "author": "xpwu",
   "main": "dist/cjs/index.js",
@@ -24,7 +24,8 @@
     "build:umd": "tsc -p tsconfig.umd.json",
     "build:types": "tsc -p tsconfig.types.json",
     "tsc": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "publishalpha": "NEXT_VERSION=$(node -e \"const pkg=require('./package.json'); const ver=pkg.version; const match=ver.match(/^(\\d+\\.\\d+\\.\\d+)-alpha\\.(\\d+)$/); if(match) { console.log(match[1] + '-alpha.' + (parseInt(match[2])+1)); } else { console.log(ver.replace(/^(\\d+\\.\\d+\\.\\d+).*$/, '$1-alpha.1')); }\") && npm version $NEXT_VERSION && git add . && git commit -m \"chore: release $NEXT_VERSION\" && git tag v$NEXT_VERSION && git push origin master && git push origin v$NEXT_VERSION"
   },
   "keywords": [
     "ts",
