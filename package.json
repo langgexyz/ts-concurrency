@@ -20,7 +20,7 @@
   "types": "dist/types/index.d.ts",
   "browser": "dist/umd/index.js",
   "dependencies": {
-    "ts-xutils": "github:langgexyz/ts-xutils#semver:^1.0.1-alpha.10"
+    "ts-xutils": "github:langgexyz/ts-xutils#semver:^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "28.1.3",
