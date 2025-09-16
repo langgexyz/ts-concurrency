@@ -12,7 +12,7 @@
     }
   },
   "name": "ts-concurrency",
-  "version": "1.0.1-alpha.1",
+  "version": "1.0.0",
   "description": "typescript concurrency",
   "author": "xpwu",
   "main": "dist/cjs/index.js",
@@ -20,7 +20,7 @@
   "types": "dist/types/index.d.ts",
   "browser": "dist/umd/index.js",
   "dependencies": {
-    "ts-xutils": "github:langgexyz/ts-xutils#semver:^1.0.0"
+    "ts-xutils": "github:langgexyz/ts-xutils#semver:^1.0.1-alpha.10"
   },
   "devDependencies": {
     "@types/jest": "28.1.3",
